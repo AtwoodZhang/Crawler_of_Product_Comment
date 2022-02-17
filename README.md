@@ -1,7 +1,7 @@
 # Crawler_of_Product_Comment
 Macy's 
 
-**Tips.** there is a little bit difference between the rank1's url's database and what I have written in the _01_main.py, so you have two choice about it.
+**Tips.** there is a little bit difference between the rank1's url's database and what I have written in the _01_request_of_prod_page.py, so you have two choice about it.
 1) copy and paste the url of "Women\ men \ toys and etc", and insert into the database.
 
 or you can 
@@ -14,7 +14,7 @@ conda install requests
 **run the code:**
 1) unzip readme.zip
 2) create a database the same as readme/爬取Macy网用户评价日志（1）需求存储数据库设计.docx
-3) run the code: _01_main.py to download the url of rank1, like "Women、men、toys and etc"
+3) run the code: _01_request_of_prod_page.py to download the url of rank1, like "Women、men、toys and etc"
 4) run the code: _02_main.py  to download the url of rank2, like "Women --> tops 、 women --> hoddies、 and etc"
 5) run the code: _03_main.py  to download the url of rank3, like "tops1, tops2 and etc"
 6) run the code: _04_main.py  to download the url of rank4, is the true product's specific url.
