@@ -6,7 +6,7 @@ import re
 import time
 import random
 # from fake_useragent import UserAgent
-from request_test_01_UA_agent_pool import ua_list
+from _00_record_of_agent_pool import ua_list
 import requests
 from lxml import etree
 
